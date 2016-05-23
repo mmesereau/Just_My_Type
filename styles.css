@@ -1,0 +1,45 @@
+.title-div {
+  background-image: url(headerbackground.jpg);
+}
+
+.logo-div {
+  text-align: center;
+  background-color: #96470C;
+}
+
+#sidebar {
+   background-image: url(sidebar-background.jpg);
+}
+
+.sidebar-content {
+  margin: 5%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+  width: 90%;
+  text-align: center;
+}
+
+#title {
+  text-align: center;
+  font-size: 110px;
+  color: black;
+}
+
+
+.main-area {
+  background-image: url(background.jpg);
+}
+
+.main-area div {
+  text-align: center;
+  margin: 7%;
+}
+
+.main-content input {
+  height: 75px;
+  width: 100%;
+}
+
+h3 {
+  color: #FFEFC4;
+}
