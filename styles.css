@@ -30,9 +30,13 @@
   background-image: url(background.jpg);
 }
 
-.main-area div {
+.main-content {
   text-align: center;
   margin: 7%;
+}
+
+.beercontainer {
+  text-align: center;
 }
 
 .main-content input {
