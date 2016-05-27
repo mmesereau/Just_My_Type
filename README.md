@@ -23,3 +23,6 @@ https://just-my-type.firebaseapp.com/
 
 This project is a single-page application.  I used JavaScript and JQuery for DOM Manipulation.  I don't think that I used any JQuery that couldn't have been done with only Vanilla JavaScript, but I wanted to increase my experience and understanding of JQuery.  
 The project is styled using Bootstrap and CSS.  I love the Bootstrap grid system, and I have been taking advantage of it consistently.  
+
+Link to video: 
+https://www.youtube.com/watch?v=MKAFCjaulP8&feature=youtu.be
