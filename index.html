@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,49 +9,65 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container-fluid">
-      <div class="col-xs-2 logo-div">
-        <a href="index.html" id="logo"><img src="beer.png" alt="Image"></a>
-      </div>
-      <div class="col-xs-10 title-div">
-        <h1 id="title">JUST MY TYPE</h1>
-      </div>
-      <div class="col-xs-2" id="sidebar">
         <div class="row">
-          <a href="index.html"><h3 class="sidebar-content">Home</h3></a>
+            <div class="col-xs-2 logo-div">
+                <a href="index.html" id="logo"><img src="beer.png" alt="Image"></a>
+            </div>
+            <div class="col-xs-10 title-div">
+                <h1 id="title">JUST MY TYPE</h1>
+            </div>
         </div>
         <div class="row">
-          <input class="sidebar-content" type="search" name="byBeer">
-          <button type="button" name="buttonByBeer" class="beer">GO</button>
+            <div class="col-xs-2 sidebar">
+                <div class="side-content">
+                    <div class="row">
+                        <a href="index.html"><h3 class="sidebar-content">Home</h3></a>
+                    </div>
+                    <div class="row">
+                        <h4>By Beer</h4>
+                    </div>
+                    <div class="row">
+                        <input class="sidebar-content searchbar beer" type="search" name="byBeer">
+                        <button type="button" name="buttonByBeer" class="beer index">GO</button>
+                    </div>
+                    <div class="row">
+                        <h4>By Brewery</h4>
+                    </div>
+                    <div class="row">
+                        <input class="sidebar-content searchbar brewery" type="search" name="byBrewery">
+                        <button type="button" name="buttonByBrewery" class="brewery index">GO</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-xs-10 main-area">
+                <div class="main-content">
+                    <div class="row">
+                        <h1 class="search-header main-content" id="beerheader">Search by Beer</h1>
+                    </div>
+                    <div class="row">
+                        <input type="search" class="main-searchbar searchbar beer" name="byBeer">
+                        <button type="button" name="buttonByBeer" class="beer index">GO</button>
+                    </div>
+                    <div class="row">
+                        <h1 class="search-header main-content" id="brewheader">Search by Brewery</h1>
+                    </div>
+                    <div class="row">
+                        <input type="search" class="main-searchbar searchbar brewery" name="byBrewery">
+                        <button type="button" name="buttonByBrewery" class="brewery index">GO</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div class="row">
-          <input class="sidebar-content" type="search" name="byBrewery">
-          <button type="button" name="buttonByBrewery" class="brewery">GO</button>
-        </div>
-      </div>
-      <div class="col-xs-10 main-area">
-        <div class="main-content">
-          <div class="row">
-            <h1 class="search-header main-content">Search by Beer</h1>
-          </div>
-          <div class="row">
-            <input type="search" class="main-searchbar" name="byBeer">
-            <button type="button" name="buttonByBeer" class="beer">GO</button>
-          </div>
-          <div class="row">
-            <h1 class="search-header main-content">Search by Brewery</h1>
-          </div>
-          <div class="row">
-            <input type="search" class="main-searchbar" name="byBrewery">
-            <button type="button" name="buttonByBrewery" class="brewery">GO</button>
-          </div>
-        </div>
-      </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="app.js"></script>
-  </body>
+</body>
+
 </html>
